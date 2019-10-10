@@ -1,0 +1,28 @@
+ {
+    "name": "PJe - CPF - CNPJ - N. Processo",
+    "version": "1.0",
+    "description": "Extensao do PJe",
+	"background": {
+      "scripts": ["jquery-3.4.1.min.js", "magica2.js"],
+      "persistent": false
+    },
+	
+    "browser_action": {
+      "default_popup": "popup.html",
+	  "default_icon": {
+		"128": "images/id-card128.png"
+      }
+    },
+	"content_scripts": [
+		{
+			"matches": ["http://*/*, http:s//*/*"],
+			"js" : ["jquery-3.4.1.min.js", "magica.js"]
+		}
+	],
+	"icons": {
+      "128": "images/id-card128.png"
+    },
+    "manifest_version": 2,
+	"content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+
+  }

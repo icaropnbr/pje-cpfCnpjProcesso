@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url(OpenSans-Regular.ttf);
+}
+.button{
+	font-size:1em;
+	background-color: #333; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 8px;
+	cursor:pointer;
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(87,180,242,0.5);
+	-moz-box-shadow: 0px 5px 10px 0px rgba(87,180,242,0.5);
+	box-shadow: 0px 5px 10px 0px rgba(87,180,242,0.5);
+}
+.mb1em{
+	margin-bottom: 1em;
+}
+
+html{
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background: #0078AA;
+    color: #fff;
+}
+
+.ajusta{
+	margin-top: 1.5em;
+}
+
+#container{
+	width:200px;
+	padding:4em;
+	text-align:center;
+	margin: 0 auto;
+}
